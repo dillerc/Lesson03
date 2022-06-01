@@ -1,0 +1,68 @@
+/*
+COLOR PALETTE
+#181818 - Very Dark Gray**
+#573954 - Dark Byzantium**
+#8BABAD - Morning blue**
+#FFEFEF - Lavendar Blush**
+#FAA275 - Atomic Tangerine**
+#2A5089 - Y in MN Blue
+#395756 - Dark Slate Gray
+#8D98A7 - Manatee
+#2D0320 - Dark purple
+*/
+
+/* Global Styles
+---------------------------------*/
+body {
+	color: #282828;
+}
+img {
+	width: 300px;
+}
+a {
+	color: #FAA275;
+}
+a:hover {
+	text-decoration: none;
+}
+
+/* Profile
+---------------------------------*/
+header {
+	background:#573954;
+	color: #FFEFEF;
+}
+
+/* Projects
+---------------------------------*/
+.projects {
+	background: #FFEFEF;
+}
+.projects a {
+	color: #FAA275;
+}
+.projects .btn {
+	color: #FFEFEF;
+	background: #573954;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+}
+.projects .btn:hover {
+	background: rgba(87, 57, 84, 75%); */
+}
+/* Work Experience
+---------------------------------*/
+.workExperience {
+	background: #8BABAD;
+}
+
+/* Education
+---------------------------------*/
+
+/* Contact Info
+---------------------------------*/
+footer {
+	background: #181818;
+	color: #FFEFEF;
+}
