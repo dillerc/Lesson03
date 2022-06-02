@@ -1,0 +1,110 @@
+/*
+COLOR PALETTE
+#181818 - Very Dark Gray**
+#573954 - Dark Byzantium**
+#8BABAD - Morning blue**
+#FFEFEF - Lavendar Blush**
+#FAA275 - Atomic Tangerine**
+#2A5089 - Y in MN Blue
+#395756 - Dark Slate Gray
+#8D98A7 - Manatee
+#2D0320 - Dark purple
+*/
+
+/* Global Styles
+---------------------------------*/
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	color: #282828;
+	margin: 0;
+	padding: 0;
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+img {
+	width: 300px;
+}
+a {
+	color: #FAA275;
+}
+a:hover {
+	text-decoration: none;
+}
+h1 {
+	font-size: 50px;
+	line-height: 0.75;
+}
+h2 {
+	font-size: 30px;
+}
+h1, h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	margin: 0.5;
+	text-shadow: 2px 2px 5px #DEB887;
+}
+.contentWrap {
+	width: 800px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+/* Profile
+---------------------------------*/
+header {
+	background:#573954;
+	color: #FFEFEF;
+}
+
+/* Projects
+---------------------------------*/
+.projects {
+	background: #FFEFEF;
+}
+.projects a {
+	color: #FAA275;
+}
+.projects .btn {
+	color: #FFEFEF;
+	background: #573954;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+.projects .btn:hover {
+	background: rgb(87, 57, 84, 75%);
+}
+.projectItem {
+	overflow: hidden;
+}
+.projectItem img {
+	float: right;
+	margin-left: 20px;
+	padding: 20px 0;
+}
+.projectItem h3 {
+	margin-top: 1;
+}
+/* Work Experience
+---------------------------------*/
+.workExperience {
+	background: #8BABAD;
+}
+
+/* Education
+---------------------------------*/
+
+/* Contact Info
+---------------------------------*/
+footer {
+	background: #181818;
+	color: #FFEFEF;
+}
